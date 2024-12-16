@@ -316,3 +316,97 @@ footer p {
     color: #0072ff;
     margin-bottom: 15px;
 }
+
+.team {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.team h2 {
+    margin-bottom: 20px;
+    color: #004aad;
+    font-size: 1.8rem;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team-member p {
+    color: #666;
+    font-size: 0.9rem;
+}
+/* Bouton Notre Équipe */
+.btn-team {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #0072ff, #0072ff); /* Dégradé vert */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-team:hover {
+    background: linear-gradient(45deg, #0072ff, #0072ff); /* Dégradé vert foncé */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-team:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo-header {
+    width: 100px; /* Taille du logo */
+    height: auto; /* Conserve les proportions */
+    position: absolute; /* Permet de positionner le logo */
+    top: 20px; /* Ajuste la position verticale */
+    left: 20px; /* Ajuste la position horizontale */
+}
+
+/* Pour s'assurer que le logo s'aligne avec le design global */
+header {
+    position: relative; /* Nécessaire si le logo est en position absolue */
+    padding: 10px;
+}
+
