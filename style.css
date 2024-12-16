@@ -396,17 +396,18 @@ footer p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.logo-header {
-    width: 100px; /* Taille du logo */
-    height: auto; /* Conserve les proportions */
+#logo-header {
     position: absolute; /* Permet de positionner le logo */
-    top: 20px; /* Ajuste la position verticale */
-    left: 20px; /* Ajuste la position horizontale */
+    top: 5px; /* Ajuste la position verticale */
+    left: 5px; /* Ajuste la position horizontale */
+    width: 80px;
+    z-index: 10;
+    height: auto;
+    display: block;
 }
 
-/* Pour s'assurer que le logo s'aligne avec le design global */
-header {
-    position: relative; /* Nécessaire si le logo est en position absolue */
-    padding: 10px;
+#team-title {
+    margin: 0; /* Supprime les marges par défaut */
+    font-size: 1.5em; /* Ajuste la taille du texte */
+    color: #00c6ff; /* Couleur bleue assortie au site */
 }
-
